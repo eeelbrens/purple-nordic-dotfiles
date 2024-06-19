@@ -1,6 +1,7 @@
 # Purple Nordic Dotfiles (a personal dotfile for use on Sway WM)
 This is my first time using (and actually setting down to rice) a window manager (coming from GNOME), and I'm probably never coming back!
 And so these are my personal dotfiles for anyone to try and apply. Enjoy!
+I wrote this theme from scratch, tho some kudos goes to [this rice](https://github.com/rubyowo/dotfiles) for inspiration.
 
 ## Previews
 ![2024-06-20T01:42:43,631663306+03:00](https://github.com/eeelbrens/purple-nordic-dotfiles/assets/130598002/3eeaaab1-d388-4d5e-94c5-399e4064a5d3)
@@ -30,6 +31,6 @@ And so these are my personal dotfiles for anyone to try and apply. Enjoy!
 
 ### theming stuff
 - theme: [`catppuccin`](https://github.com/catppuccin/catppuccin) frappe
-- firefox theming: [`cascade`](https://github.com/cascadefox/cascade) and [Adaptive Tab Bar](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour) extension
+- firefox theming: [`cascade`](https://github.com/cascadefox/cascade) and [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour) extension
 - theme for websites: [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-- fonts: [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono) (monospace, OG non-nerd variant), [Rubik](https://fonts.google.com/specimen/Rubik) (sans-serif)
+- fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono) (monospace, OG non-nerd variant), [Rubik](https://fonts.google.com/specimen/Rubik) (sans-serif)
