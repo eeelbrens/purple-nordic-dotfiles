@@ -1,0 +1,126 @@
+// -*- mode: jsonc -*-
+{
+    "position": "bottom",
+    "height": 24,
+    "width": 1888,
+    "spacing": 8,
+    "margin-bottom": 14,
+    "modules-left": [
+        "idle_inhibitor",
+        "sway/workspaces",
+        "sway/mode",
+        "sway/scratchpad",
+        "mpris"
+    ],
+    "modules-center": [
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "power-profiles-daemon",
+        // "cpu",
+        // "memory",
+        "temperature",
+        "backlight",
+        "sway/language",
+        "battery",
+        "clock"
+        // "tray"
+    ],
+    "sway/mode": {
+        "format": "{}"
+    },
+    "sway/scratchpad": {
+        "format": "count: {count}",
+        "show-empty": false,
+        "tooltip": true,
+        "tooltip-format": "{app}: {title}"
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "awake",
+            "deactivated": "dizzy"
+        }
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "format": "{:%a, %b%d %H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y/%m/%d}"
+    },
+    "cpu": {
+        "format": "cpu: {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "memory: {}%"
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 60,
+        "format-critical": "CRITICAL: {temperatureC}°C",
+        "format": "temp: {temperatureC}°C",
+    },
+    "backlight": {
+        "scroll-step": 5,
+        "format": "brightness: {percent}%",
+    },
+    "battery": {
+        "states": {
+            //"good": 95,
+            "warning": 30,
+            "critical": 10
+        },
+        "format": "power: {capacity}%",
+        "format-full": "full: {capacity}%",
+        "format-charging": "charging: {capacity}%",
+        "format-plugged": "plugged: {capacity}%",
+        "format-alt": "time: {time}",
+        //"format-good": "", // An empty format will hide the module
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
+    "network": {
+        "format-wifi": "wifi: {essid}",
+        "format-ethernet": "eth: {ipaddr}/{cidr}",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP)",
+        "format-disconnected": "disconnected",
+        "format-alt": "{ifname}: {ipaddr}/{cidr} ({signalStrength}%)"
+    },
+    "mpris": {
+        "format": "played: {title}",
+        "format-paused": "paused: {title}",
+        "max-length": 40,
+        "interval": 1
+    },
+    "pulseaudio": {
+        "scroll-step": 5, // %, can be a float
+        "format": "audio: {volume}% {format_source}",
+        "format-bluetooth": "bt: {volume}% {format_source}",
+        "format-bluetooth-muted": "btmuted: {format_source}",
+        "format-muted": "muted {format_source}",
+        "format-source": "mic: {volume}%",
+        "format-source-muted": "micmuted",
+        "max-volume": 150,
+        "on-click": "pavucontrol"
+    }
+}
