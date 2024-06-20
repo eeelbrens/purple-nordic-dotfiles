@@ -20,7 +20,7 @@ I wrote this theme from scratch, tho some kudos goes to [this rice](https://gith
 - progress bar: [`wob`](https://github.com/francma/wob) (not shown)
 
 ### extra dependencies required
-- swaywm: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grim` `grimshot` (for screenshots), `swayidle` (for idle settings)
+- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grim` `grimshot` (for screenshots), `swayidle` (for idle settings)
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
