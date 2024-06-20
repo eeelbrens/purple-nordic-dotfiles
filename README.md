@@ -32,6 +32,8 @@ I wrote this theme from scratch, tho some kudos goes to [this rice](https://gith
 ### theming stuff
 - theme: [`catppuccin`](https://github.com/catppuccin/catppuccin) frappe
 - firefox theming: [`cascade`](https://github.com/cascadefox/cascade) and [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour) extension
+> [!NOTE]
+> The chrome folder contains my own firefox configs file for cascade. Only the cascade-colours.css file is commented out and had its color theme management to Adaptive Tab Bar Colour.
 - theme for websites: [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 - fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono) (monospace, OG non-nerd variant), [Rubik](https://fonts.google.com/specimen/Rubik) (sans-serif)
 - cursor: [Bibata-Modern-Classic](https://www.bibata.live/) (not shown in screenshots)
