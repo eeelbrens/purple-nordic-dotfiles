@@ -348,8 +348,8 @@
     #default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#eff1f5"
-    foreground = "#4c4f69"
+    background = "#303446"
+    foreground = "#c6d0f5"
     frame_color = "#ef9f76"
     timeout = 0
     override_pause_level = 60
