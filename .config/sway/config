@@ -23,7 +23,7 @@ output * bg ~/Downloads/mist_forest_frappe.jpg fill
 
 ### Idle configuration. Heavily relying on systemd here (also added [Login]HandlePowerKey=suspend to /etc/systemd/logind.conf).
 exec swayidle -w \
-          timeout 291 'swaylock --config ~/.config/swaylock/config.conf -f' \
+          timeout 295 'swaylock --config ~/.config/swaylock/config.conf -f' \
           timeout 300 'systemctl suspend' \
           resume 'swaymsg "output * dpms on"' \
           before-sleep 'swaylock --config ~/.config/swaylock/config.conf -f' 
