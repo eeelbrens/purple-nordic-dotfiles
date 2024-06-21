@@ -153,8 +153,8 @@ button:hover {
 }
 
 #power-profiles-daemon.balanced {
-    color: @sky;
-    border: 2px solid @sky;
+    color: @green;
+    border: 2px solid @green;
 }
 
 #power-profiles-daemon.power-saver {
