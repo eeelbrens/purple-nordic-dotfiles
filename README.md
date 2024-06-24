@@ -1,9 +1,9 @@
-# Purple Nordic Dotfiles (a personal dotfile for use on Sway WM)
+# Purple Nordic Dotfiles (RETIRED)
+> [!NOTE]
+> RETIRED! [This setup is its successor](https://github.com/eeelbrens/frieren-everforest).
 This is my first time using (and actually setting down to rice) a window manager (coming from GNOME), and I'm probably never coming back!
 And so these are my personal dotfiles for anyone to try and apply. Enjoy!
 I wrote this theme from scratch, tho some kudos goes to [this rice](https://github.com/rubyowo/dotfiles) for inspiration.
-> [!NOTE]
-> I'm actively updating these dotfiles as I add extra functionality to my setup (as long as I'm not changing any one pixel of my screenshoted look). Don't take that with a deal-breaking stance, you could always commit those changes to your setup as well!
 
 ## Previews
 ![2024-06-20T01:42:43,631663306+03:00](https://github.com/eeelbrens/purple-nordic-dotfiles/assets/130598002/3eeaaab1-d388-4d5e-94c5-399e4064a5d3)
