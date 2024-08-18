@@ -1,6 +1,7 @@
-# Purple Nordic Dotfiles (RETIRED)
+# Purple Nordic Dotfiles
+
 > [!NOTE]
-> RETIRED! [This setup is its successor](https://github.com/eeelbrens/frieren-everforest).
+> I'm using [this setup](https://github.com/eeelbrens/dotfiles-gruvbox) right now, which builds on this rice in one way or another. Go check it out!
 
 This is my first time using (and actually setting down to rice) a window manager (coming from GNOME), and I'm probably never coming back!
 And so these are my personal dotfiles for anyone to try and apply. Enjoy!
